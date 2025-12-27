@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+main {
+  width: 380px;
+  margin: 24px auto 0;
+  box-shadow: 0 0 8px #999;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+p {
+  margin: 0;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-family: "Courier New";
+  font-size: 24px;
+  text-align: center;
+  padding: 12px 0;
+}
+
+button {
+  all: unset;
+  width: 100%;
+  background: #08c;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+button:active {
+  opacity: 0.4;
+}
+
+fieldset {
+  border: 1px dashed #aaa;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+legend {
+  padding: 0 8px;
+}
+
+#password-length {
+  width: 24px;
+  display: inline-block;
+  text-align: center;
+}
